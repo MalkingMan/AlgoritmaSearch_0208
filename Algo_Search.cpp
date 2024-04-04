@@ -21,7 +21,12 @@ int i; // Index of array element
     cout << "\n--------------------\n";
     cout << " Enter array Elements \n";
     cout << "--------------------- \n";
-    
+    for (i = 0; i < n; i++)
+    {
+        cout << "<" << (i + 1) << "> ";
+        cin >> arr [i];
+    }
+ }
 
 
 
