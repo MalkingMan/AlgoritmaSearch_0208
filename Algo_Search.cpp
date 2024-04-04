@@ -30,7 +30,15 @@ int i; // Index of array element
 
  void LinearSearch()
  {
+    char ch;
+    int ctr; // Number of comparisons
+    int item;
+
     
+
+
+
+
 
  }
 
