@@ -28,6 +28,12 @@ int i; // Index of array element
     }
  }
 
+ void LinearSearch()
+ {
+    
+
+ }
+
 
 
     
