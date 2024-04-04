@@ -46,6 +46,12 @@ int i; // Index of array element
             cout <<"\n" << item << " not found in the array\n";
             break;
         }
+        i++; // step 4
+    }
+
+if (i == n) // step 5
+cout << "\n" << item << " not found in the array\n";
+cout << "\nNumber of comparisons: " << ctr << endl;
 
 
 
