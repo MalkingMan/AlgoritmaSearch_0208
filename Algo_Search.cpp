@@ -28,7 +28,7 @@ int i; // Index of array element
     }
  }
 
- void LinearSearch()
+void LinearSearch()
  {
     char ch;
     int ctr; // Number of comparisons
@@ -40,14 +40,18 @@ int i; // Index of array element
         cout <<" \nEnter the element you want to search: "; // step 1 
         cin >> item;
 
-        ctr++;
-        if (arr[i] == item)
+        ctr = 0;
+        1=0; // step 2
+        while (in) // step 3
         {
-            cout <<"\n" << item << " not found in the array\n";
-            break;
-        }
-        i++; // step 4
-    }
+            ctr++;
+            if (arr[i] == item)
+            {
+                cout <<"\n" << item << " found at position" << (i + 1) << endl; // step 6
+                break;
+            }
+            i++; // step 4 
+         }
 
     if (i == n) // step 5
     cout << "\n" << item << " not found in the array\n";
@@ -58,13 +62,14 @@ int i; // Index of array element
 
 
     } while ((ch == 'y') || (ch == 'Y'));
-    
+
+} 
 
 
 
 
 
- }
+ 
 
 
 
