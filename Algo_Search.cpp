@@ -43,8 +43,10 @@ int i; // Index of array element
         ctr++;
         if (arr[i] == item)
         {
-            
+            cout <<"\n" << item << " not found in the array\n";
+            break;
         }
+
 
 
 
