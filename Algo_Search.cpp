@@ -34,6 +34,15 @@ int i; // Index of array element
     int ctr; // Number of comparisons
     int item;
 
+    do
+    {
+        // Accept the number to be searched
+        cout <<" \nEnter the element you want to search: "; // step 1 
+
+
+
+
+    } while (/* condition */);
     
 
 
