@@ -49,17 +49,15 @@ int i; // Index of array element
         i++; // step 4
     }
 
-if (i == n) // step 5
-cout << "\n" << item << " not found in the array\n";
-cout << "\nNumber of comparisons: " << ctr << endl;
+    if (i == n) // step 5
+    cout << "\n" << item << " not found in the array\n";
+    cout << "\nNumber of comparisons: " << ctr << endl;
 
-cout << "\nContinue search (y/n): ";
-cin >> ch;
-
-
+    cout << "\nContinue search (y/n): ";
+    cin >> ch;
 
 
-    } while (/* condition */);
+    } while ((ch == 'y') || (ch == 'Y'));
     
 
 
