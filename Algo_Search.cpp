@@ -18,8 +18,11 @@ int i; // Index of array element
     }
 
     // Accept array elements
-    cout << "\n-----------\n";
+    cout << "\n--------------------\n";
+    cout << " Enter array Elements \n";
+    cout << "--------------------- \n";
     
+
 
 
     
